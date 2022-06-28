@@ -6,7 +6,7 @@ a + b, a - b, a * b, a / b.
 
 a, b = int(input(f'Input variable a: ')), int(input(f'Input variable b: '))
 for i in '+-*/':
-    print(f'a {i} b = {round(eval(str(a) + i + str(b)),2)}')
+    print(f'a {i} b = {round(eval(str(a) + i + str(b)), 2)}')
     
 
 # print(f'a + b = {a + b}')
