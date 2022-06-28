@@ -1,5 +1,6 @@
 '''Task #3 (Aleksieiev Valentin)
 Create smile face in Python'''
+
 print("\033[32m{}".format('''
 \033[31m            *
            ***
