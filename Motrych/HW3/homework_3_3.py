@@ -1,7 +1,7 @@
 
-a = float(input("enter a  "))
-b = float(input("enter b  "))
-perimeter=2*(a+b)
-area= a*b
+wid = float(input("enter width  "))
+heig = float(input("enter height  "))
+perimeter=2*(wid+heig)
+area= wid*heig
 print(f"Perimeter={perimeter}")
-print(f"area={area}")
+print(f"Area={area}")
