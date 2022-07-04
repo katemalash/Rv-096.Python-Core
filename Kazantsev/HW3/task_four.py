@@ -1,12 +1,20 @@
-import math
+from math import pi
 
 
-def circle_calcs():
-    circle_radius = int(input("Enter a circle radius: "))
-    circle_perimeter = math.pi * circle_radius**2
-    circle_area = 2 * math.pi * circle_radius
-    return print(f'Your circle perimeter equals to {round(circle_perimeter, 2)}. Your circle area equals to \
-{round(circle_area, 2)}')
+def circle_perimeter_calcs(circle_radius):
+
+    return pi * circle_radius**2
 
 
-circle_calcs()
+def circle_area_calcs(circle_radius):
+
+    return 2 * pi * circle_radius
+
+
+circle_radius_input = int(input("Enter a circle radius: "))
+
+perimeter = circle_perimeter_calcs(circle_radius_input)
+area = circle_area_calcs(circle_radius_input)
+
+print(f'Your circle perimeter equals to {round(perimeter, 2)}. Your circle area equals to \
+{round(area, 2)}')
