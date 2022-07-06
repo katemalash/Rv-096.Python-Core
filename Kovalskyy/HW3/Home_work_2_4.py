@@ -4,5 +4,5 @@ pi = 3.14
 circumference = 2*pi*radius
 area = pi*radius**2
 
-print("The circumference of the rectangle is:", circumference)
-print("The area of the rectangle is:", area)
+print("The circumference of the circle is:", circumference)
+print("The area of the circle is:", area)
