@@ -1,4 +1,5 @@
 year = int(input("Enter year "))
+
 import math
 
 century = math.trunc(year/100)+1

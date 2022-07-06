@@ -1,4 +1,5 @@
 choice = int(input("Please choice the figure,1-rectangle,2-triangle,3-circle: "))
+
 if choice > 3:
     choice = int(input("Please choice the figure,1-rectangle,2-triangle,3-circle: "))
 

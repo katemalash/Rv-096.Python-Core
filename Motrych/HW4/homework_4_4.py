@@ -1,6 +1,7 @@
 K = float(input("Enter K-distanse from wall to stage "))
 radius = float(input("Enter radius of stage:  "))
 square = float(input("Enter hall square:  "))
+
 from math import pi
 from math import sqrt
 

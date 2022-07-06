@@ -1,4 +1,5 @@
 import math 
+
 number =math.trunc( float(input("Enter number: ")))
 if number < 0:
     a = "negative"
