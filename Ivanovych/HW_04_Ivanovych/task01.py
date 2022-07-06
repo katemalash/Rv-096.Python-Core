@@ -11,8 +11,3 @@ if (year % 100 > 0):
 else:
    century = year // 100;
 print("Этот год относится к", century, "-му столетию")
-
-#if (years % 4 == 0 and years % 100 != 0) or (years % 400 == 0):
-#         print (годы, «високосный год»)
-#else:
-#         print (годы, «не високосный год»)
