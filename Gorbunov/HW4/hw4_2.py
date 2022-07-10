@@ -4,7 +4,7 @@ if choise ==1:
     rectangle_area = a*b
     print(f"Rectangle area is :{rectangle_area}") 
 elif choise ==2:
-    a, b, c = map(float, input('Enter three values "lengths of the sides" of a triangleby by space: ').split()) 
+    a, b, c = map(float, input('Enter three values "lengths of the sides" of a triangle by space: ').split()) 
     p=(a+b+c)/2
     triangle_area = (p*(p-a)*(p-b)*(p-c))**0.5
     print(f"Triangle area is :{triangle_area}") 
