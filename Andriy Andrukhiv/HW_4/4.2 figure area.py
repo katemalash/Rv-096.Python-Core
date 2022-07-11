@@ -7,16 +7,17 @@ if figure == 't' or 'T':
     print (ac)
 
 elif figure == 'c' or 'C':
-    height = float(input("press height(m): "))
-    width = float(input("press width(m): "))
-    area = height*width
-    print (area)
-
-elif figure == 'r' or 'R':
     p = 3.14
     r = float(input("Press radius: "))
     a = p * r**2
     print (a)
+
+elif figure == 'r' or 'R':
+    height = float(input("press height(m): "))
+    width = float(input("press width(m): "))
+    area = height*width
+    print (area)
+    
 
 else:
     print ('I can not treat with figure :c ')
