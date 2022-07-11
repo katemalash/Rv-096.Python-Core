@@ -1,12 +1,14 @@
-import math
+from math import sqrt
 
 
-def find_hypotenuse():
-    first_cathetus = int(input("Enter length of the first cathetus: "))
-    second_cathetus = int(input("Enter length of the second cathetus: "))
-    hypotenuse_squared = first_cathetus**2 + second_cathetus ** 2
+def find_hypotenuse(cathetus_a, cathetus_b):
 
-    return print(f'Your hypotenuse is {round(math.sqrt(hypotenuse_squared), 3)}')
+    return cathetus_a**2 + cathetus_b ** 2
 
 
-find_hypotenuse()
+first_cathetus = float(input("Enter length of the first cathetus: "))
+second_cathetus = float(input("Enter length of the second cathetus: "))
+
+
+hypotenuse_squared = find_hypotenuse(first_cathetus, second_cathetus)
+print(f'Your hypotenuse is {round(sqrt(hypotenuse_squared), 3)}')
