@@ -1,5 +1,0 @@
-testing create new file from command line
-for practics
-and I don't understand how it's works:)
-
-Exit from cat = cntrl + D

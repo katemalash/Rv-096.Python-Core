@@ -1,7 +1,7 @@
 r = float(input("enter r  "))
 
-from math import pi
-p = pi
+import math
+p = math.pi
 
 perimeter=2*p*r
 area= p*r*r
