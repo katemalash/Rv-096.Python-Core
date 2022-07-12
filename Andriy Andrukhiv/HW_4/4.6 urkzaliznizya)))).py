@@ -1,7 +1,7 @@
 place = int(input('Enter your place: '))
 language = input('Ukrainian or English?(U - E): ')
 
-if language == 'E' or 'e':
+if language == 'E' or language == 'e':
     if place<=36 and place%2 :
         print (f'Your place '+str(place)+ ' this is lower  place in coup! ')
     elif place<=36 and place != place/2:
@@ -16,7 +16,7 @@ if language == 'E' or 'e':
         print (f'Place missing.')
     else:
         print ()
-if language == 'U' or 'u':
+if language == 'U' or language == 'u':
     if place<=36 and place%2 :
         print (f'Ваше місце'+str(place)+ ' це нижнє місце в купе! ')
     elif place<=36 and place != place/2:

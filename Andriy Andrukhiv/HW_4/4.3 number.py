@@ -1,19 +1,20 @@
-n = int(input('Введіть число: '))
+number = int(input('Enter number: '))
 print('Введене число:')
 
-if n > 0:
+if number > 0:
     print('додатнє,')
-elif n < 0:
+elif number < 0:
     print('від\'ємне,')
 else:
     print('є нулем,')
-if abs(n) < 10:
+if abs(number) < 10:
     print('однозначне,')
-elif abs(n) >= 10 and abs(n) < 100:
+elif abs(number) >= 10 and abs(number) < 100:
     print('двозначне,')
 else:
     print('багатозначне,')
-if n%2 == 0 :
-    print('парне.')
+if number%2 == 0:
+    print ('парне')
 else:
     print('непарне.')
+
