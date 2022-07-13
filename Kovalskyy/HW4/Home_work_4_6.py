@@ -1,6 +1,6 @@
 place_number = int(input("Enter place number: "))
 
-if place_number >= 1 and place_number <= 54:
+if 1<= place_number <= 54:
     
     if place_number %2 ==0:
         if place_number <=36:
