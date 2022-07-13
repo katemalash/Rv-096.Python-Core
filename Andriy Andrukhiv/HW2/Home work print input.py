@@ -1,0 +1,7 @@
+name = input('Hello.\nWhat is your name? ')
+print('Cool, you name is ' + name )
+old =int(input('How old are you? '))
+print('Good, you have ' + str(old) + ' years ')
+city = input('Where do you live? ')
+print('Good, you live in ' + city)
+print('Okey, nice to meet you, bye!')
