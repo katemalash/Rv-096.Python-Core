@@ -1,4 +1,4 @@
 
-number = 5
-for i in range(1, 10):
-   print(number, 'x', i, '=', number*i,)
+for b in range(1, 10):
+    for i in range(1, 10):
+       print(b, 'x', i, '=', b*i)
