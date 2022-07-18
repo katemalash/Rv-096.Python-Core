@@ -4,5 +4,5 @@ num_list = list(map(int, entered_list))
 i = 0
 for i in (num_list):
     if i % 5 == 0 :
-        print("Numbers are multiples of 5:")
+        #print("Numbers are multiples of 5:")
         print(i)
