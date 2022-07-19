@@ -1,4 +1,3 @@
-
 mul_number = []
 count= 0
 while count <10:
@@ -16,6 +15,3 @@ while count <10:
         mul_number.append(user_number)
 
 print(mul_number)
-
-    
-

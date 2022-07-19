@@ -18,5 +18,3 @@ while user_num !=0:
 #print(user_num, positive, negative)
 print(f'The positiv numbers are: {len(positive)/len(user_num)*100} percentage')
 print(f'The negative numbers are: {len(negative)/len(user_num)*100} percentage')
-
-

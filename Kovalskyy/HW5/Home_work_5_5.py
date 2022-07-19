@@ -1,14 +1,3 @@
-#Given the number P and the number H. 
-# The user enters a sequence of numbers. 
-# Determine: the sum of those numbers that are less than P; 
-# product of numbers greater than H; 
-# the number of numbers in the range of values ​​from P to H. 
-# When entering a number equal to P or H, stop the calculation and display the result.
-
-
-
-
-
 P = int(input("Enter number P: "))
 H = int(input("Enter number H: "))
 
@@ -16,6 +5,7 @@ user_number = []
 numb_smaler_P = []
 numb_bigger_H = []
 result_range = []
+numb_bigger_H_result =1
 
 while P!= 0 or H!= 0:
 
@@ -27,7 +17,6 @@ while P!= 0 or H!= 0:
     if user_number[-1] > H:                       # product of numbers greater than H; 
         numb_bigger_H.append(user_number[-1])
 
-        numb_bigger_H_result =1
         for n in numb_bigger_H:
             numb_bigger_H_result *= n
 
@@ -43,4 +32,3 @@ while P!= 0 or H!= 0:
 print(f"Sum all numbers less than P: {sum(numb_smaler_P)}")
 print(f"Product of numbers greater than H: {numb_bigger_H_result}")
 print(f"The number of numbers in the range of values from {P} to {H}: {len(result_range)}")
-

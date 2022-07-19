@@ -9,7 +9,7 @@ while count <10:
     count +=1
     guess = int(input("Guess a number: "))
 
-    if 0 <+ guess >= 100:
+    if 0 < guess > 100:
         print("Wrong number! \nGuess a number from 0 to 100!")
         count -=1
         continue
@@ -20,11 +20,11 @@ while count <10:
 
     elif ran_int < guess:
         print("You guessed too high!")
-        print("This is your", count, "attempt")
+        print("This is your's", count, "attempt")
 
     elif ran_int > guess:
         print("You guessed too low!")
-        print("This is your", count, "attempt")
+        print("This is your's", count, "attempt")
 
 if count >= 10:
-    print("The number is", ran_int+"!","Try next time!" )
+    print(f"The number is {ran_int}! Try next time!" )
