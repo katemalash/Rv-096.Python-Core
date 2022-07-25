@@ -18,11 +18,9 @@ for _ in range(0,5):
     user_list.append(user_num)
 
 
-result = []
-for i in range(0,5):
-    index = random_list[i] + user_list[i]
-    result.append(index)
+i = list(map(sum,zip(random_list,user_list)))
+
 
 print(f"Random list - {random_list}")
 print(f"User list - {user_list}")
-print(f"Sum list - {result}")
+print(f"Sum list - {i}")
