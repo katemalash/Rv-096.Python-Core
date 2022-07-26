@@ -1,4 +1,12 @@
 some_string = input("Input a string: ")
-
-some_string = "".join(sorted(set(some_string)))
-print(some_string)
+ulist = []
+previous = None
+for char in some_string:
+    if previous != char:
+        ulist.append(char)
+        previous=char
+print("".join(ulist))
+#for char in some_string:
+#    if char not in ulist:
+#        ulist.append(char)
+#print("".join(ulist))
