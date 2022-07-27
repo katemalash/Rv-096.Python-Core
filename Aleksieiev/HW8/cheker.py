@@ -7,7 +7,7 @@ def input_variable(func, var_num, mes):
 var_num - from function variable_check
 mes - from function variable_check'''
     try:
-        values = [func(input(f'{mes} {func.__name__} format #{i}: ')) for i in range(1, var_num + 1)]
+        values = [func(input(f'{mes} {func.__name__} #{i}: ')) for i in range(1, var_num + 1)]
     except Exception:
         print(f'You can input only {func.__name__} numbers\n')
         return input_variable(func, var_num, mes)
