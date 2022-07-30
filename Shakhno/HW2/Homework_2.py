@@ -1,0 +1,10 @@
+#The second task
+print("What is your name?")
+name = input()
+print("How old are you?")
+age = int(input())
+print("wher do you live?")
+city = input()
+print("Hello, ",name)
+print("Your age is: ",age)
+print("You line in: ",city)
