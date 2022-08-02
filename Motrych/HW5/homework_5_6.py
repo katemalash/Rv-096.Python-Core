@@ -1,14 +1,13 @@
-number = float(input("Enter next number: "))
-positive_share = 0
-negative_share = 0
-qty = 1
-while number != 0:
-    if number > 0:
-        positive_share=(positive_share+1)/qty
-        qty=qty+1
-    else:
-        negative_share =(negative_share+1)/qty
-        qty=qty+1
-    number = float(input("Enter next1 number: "))    
-
-print(f"share of positive numbers is {positive_share},\nshare of negative share is {negative_share}")
+positive_qty=0
+negative_qty=0 
+count=0
+digit=1
+while not digit == 0:
+    digit=int(input("Enter integer number "))
+    if digit < 0:
+        negative_qty+=1
+    elif digit > 0:
+        positive_qty+=1
+    count+=1
+print(f"Share of negative digits is {negative_qty*100/(count-1)}% ")
+print(f"Share of positive digits is {positive_qty*100/(count-1)}% ")   
