@@ -6,7 +6,6 @@ def salad(func):
 
     return add_salad
 
-
 @salad
 def print_recipe(recipe=str):
     try:
@@ -24,3 +23,4 @@ sandwich = 'potato, tomato, cucumber, bun, sauce, cutlet'
 soup = 'potato, cabbage, beet, meat'
 
 print_recipe(soup)
+print_recipe(sandwich)
