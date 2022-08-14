@@ -5,8 +5,12 @@ from datetime import datetime, tzinfo
 #from pytz import datetime as dt
 from my_api import api_
 
+<<<<<<< HEAD
 
 owm = OWM("d41d024f8af9c"+api_)
+=======
+owm = OWM("d41d024f8af9c2b"+api)
+>>>>>>> 33e4af2f471b897ed3855a69e91bf098acda7b05
 
 #owm = OWM('d41d024f8af9c2b95184b1e3fc95de91')
 mgr = owm.weather_manager()
