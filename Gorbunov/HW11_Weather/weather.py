@@ -3,7 +3,7 @@ from pyowm.utils import config
 from pyowm.utils import timestamps
 from my_api import api
 
-owm = OWM(api)
+owm = OWM("d41d024f8af9c2b"+api)
 
 #owm = OWM('d41d024f8af9c2b95184b1e3fc95de91')
 mgr = owm.weather_manager()
