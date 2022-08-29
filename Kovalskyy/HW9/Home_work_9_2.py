@@ -12,13 +12,12 @@ def add_lettuce(func):
     def wrapper(*args,**kwargs):
         print('Collection before decorate:')
         func(*args,**kwargs)
-        print (args)
         menu = args[0]
         for val in menu.values():
             val.add("Lettuce")
-
+            
         print('Collection after decorate:')
-        return func(*args,**kwargs) 
+        return func(menu) 
     return wrapper
 
 @add_lettuce
